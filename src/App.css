@@ -1,0 +1,6 @@
+.App {
+    background-color: var(--clr-neutral-500);
+    display: grid;
+    place-items: center;
+    gap: 1.3rem;
+}

@@ -1,5 +1,7 @@
 article {
     display: grid;
+    background-color: var(--clr-white);
+    border-radius: 10px;
     grid-template-columns: 60px 1fr;
     font-size: 2rem;
     width: 50%;
@@ -17,6 +19,7 @@ article .likes_count {
     border-radius: 10px;
     background-color: var(--clr-neutral-500);
     color: var(--clr-primary-400);
+    margin-left:1rem;
 }
 
 .left_side {
@@ -83,11 +86,31 @@ h3 {
     font-size: 1.6rem;
 }
 
+  
+  
+  .btn {
+    border: none;
+    background-color: inherit;
+    color: var(--clr-primary-400);
+    font-weight: var(--fw-500);
+    font-size: 1.5rem;
 
+  }
 
-
-
-
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
   
   
   
