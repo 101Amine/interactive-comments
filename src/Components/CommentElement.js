@@ -1,7 +1,7 @@
 import React from 'react'
 import './comments.css';
 
-export const CommentElement = ({img, user, date, comment}) => {
+export const CommentElement = ({avatar, likes,user, date, comment}) => {
   
   const handleReply = () => {
     console.log('clicked reply')
@@ -12,7 +12,7 @@ export const CommentElement = ({img, user, date, comment}) => {
       
         <div className='likes_count'>
             <div> <img className='clickable' src='./images/icon-plus.svg' alt='icon_plus' /> </div>
-            <div> 12 </div>
+            <div> {likes} </div>
             <div> <img className='clickable'  src='./images/icon-minus.svg' alt='icon_minus' /></div>
         </div>
 
@@ -22,8 +22,8 @@ export const CommentElement = ({img, user, date, comment}) => {
 
                 <div className='left_side'>
                     <img className='avatar' src='./images/avatars/image-amyrobson.png' alt='avatar' />
-                    <h2>amyrobson</h2>
-                    <h3>1 month ago</h3>
+                    <h2>{user}</h2>
+                    <h3>{date}</h3>
                 </div>
 
 
@@ -36,7 +36,7 @@ export const CommentElement = ({img, user, date, comment}) => {
 
             <div className='bottom_side'>
                   <p>
-                    Impressive! though it seems the drag feature could be improved, But overall it looks incredible, You've nailed the design and the responsiveness at various breakpoints works really well. 
+                    {comment}
                   </p>
 
 
