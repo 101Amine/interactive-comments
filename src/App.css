@@ -3,4 +3,5 @@
     display: grid;
     place-items: center;
     gap: 1.3rem;
+    padding-block: 2rem;
 }

@@ -2,8 +2,9 @@
     display: grid;
     grid-template-columns: 50px 1fr 100px;
     padding: 20px;
-    background-color: beige;
+    background-color: var(--clr-white);
     border-radius: 10px;
+    width: 63%;
 }
 
 .add_comment_container .avatar_container img {
@@ -40,6 +41,7 @@
     padding-inline: 25px;
     border-radius: 8px;
     font-size: 1.7rem;
+    cursor: pointer;
 }
 
 

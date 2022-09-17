@@ -1,0 +1,15 @@
+.reply_container{
+    width: 100vw;
+    display: flex;
+    gap:11rem;
+    place-content: center;
+}
+
+hr {
+    border: 0;
+    margin: 0;
+    border-left: 5px solid var(--clr-primary-400);
+    height: 200px;
+    float: left;
+    opacity: 20%;
+}
